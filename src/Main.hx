@@ -39,13 +39,7 @@ class Main extends Sprite
 		if (inited) return;
 		inited = true;
 
-		// (your code here)
-		
-		// Stage:
-		// stage.stageWidth x stage.stageHeight @ stage.dpiScale
-		
-		// Assets:
-		// nme.Assets.getBitmapData("img/assetname.jpg");
+		example();
 	}
 
 	/* SETUP */
@@ -67,7 +61,7 @@ class Main extends Sprite
 		#end
 		
 		
-		example();
+		
 		
 	}
 	
